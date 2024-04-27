@@ -26,6 +26,12 @@ function hitLebar () {
 
 function fun () {
     document.getElementById("myForm1").reset();
+    document.getElementById("hasil1").innerHTML = "";
+    document.getElementById("hasil2").innerHTML = "";
+    document.getElementById("hasil3").innerHTML = "";
+    document.getElementById("hasil4").innerHTML = "";
+    document.getElementById("hasil41").innerHTML = "";
+    document.getElementById("hasil42").innerHTML = "";
 }
 
 function hitLebarB () {
@@ -56,6 +62,12 @@ function hitLebarB () {
 
 function funB () {
     document.getElementById("myForm2").reset();
+    document.getElementById("hasilb1").innerHTML = "";
+    document.getElementById("hasilb2").innerHTML = "";
+    document.getElementById("hasilb3").innerHTML = "";
+    document.getElementById("hasilb4").innerHTML = "";
+    document.getElementById("hasilb41").innerHTML = "";
+    document.getElementById("hasilb42").innerHTML = "";
 }
 
 function hitLebarC () {
@@ -86,4 +98,10 @@ function hitLebarC () {
 
 function funC () {
     document.getElementById("myForm3").reset();
+    document.getElementById("hasilc1").innerHTML = "";
+    document.getElementById("hasilc2").innerHTML = "";
+    document.getElementById("hasilc3").innerHTML = "";
+    document.getElementById("hasilc4").innerHTML = "";
+    document.getElementById("hasilc41").innerHTML = "";
+    document.getElementById("hasilc42").innerHTML = "";
 }
