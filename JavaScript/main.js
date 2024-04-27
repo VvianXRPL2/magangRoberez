@@ -8,7 +8,6 @@ function hitLebar () {
     let hasilElement41 = document.getElementById("hasil41");
     let hasilElement42 = document.getElementById("hasil42");
     
-    // dapatkan nomor dari input\\
     let lebar = inputElement1.value; 
     let tinggi = inputElement2.value;
     
@@ -39,7 +38,6 @@ function hitLebarB () {
     let hasilElementb41 = document.getElementById("hasilb41");
     let hasilElementb42 = document.getElementById("hasilb42");
     
-    // dapatkan nomor dari input\\
     let lebarB = inputElementb1.value; 
     let tinggiB = inputElementb2.value;
     
@@ -70,7 +68,6 @@ function hitLebarC () {
     let hasilElementc41 = document.getElementById("hasilc41");
     let hasilElementc42 = document.getElementById("hasilc42");
     
-    // dapatkan nomor dari input\\
     let lebarC = inputElementc1.value; 
     let tinggiC = inputElementc2.value;
     
