@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV. ROBEREZ</title>
+    <link rel="icon" type="image" href="assetss/logoRoberez.webp">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body background="assetss/videotron.jpg">
+
+    <header>
+        <h1>CV ROBEREZ JAYA MANDIRI</h1>
+        <div>
+            <img src="assetss/logoRoberez.webp" alt="">
+        </div>
+        <h3>LED VIDEOTRON ENTERTAINING</h4>
+    </header>
+
+    <p class="pHead">HITUNG JUMLAH PESANAN MODULE DAN RESOLUSI VIDEOTRON</p>
+
+    <div class="bg">
+
+        <div class="container">
+            <div class="pict">
+                <img src="assetss/p25.png" alt="moduleImg" style="display: block;
+                margin: auto; margin-bottom: 40px; ">
+            </div>
+        
+            <div class="inpText">
+                <label for="squareSide" id="lblSquareSide">Masukkan Lebar & Tinggi Ukuran Panel</label>
+            </div>
+        
+            <form id="myForm1" action="#">
+                <input type="number" class="designInp" id="inpLebar" placeholder="lebar M">
+                <input style="margin-top: -1px;" type="number"  class="designInp" id="inpTinggi" placeholder="tinggi M">
+            </form>
+        
+            <div class="resultBox" >
+
+                <div class="desk">
+                    <p>Lebar Asli : </p>
+                    <p>Tinggi Asli : </p>
+                    <p>Jumlah Resolusi :</p>
+                    <p>Jumlah Module : </p>
+                    <p>Module KeSamping :</p>
+                    <p>Module KeBawah :</p>
+                </div>
+
+                <div class="deskHasil">
+                    <div id="hasil1"></div>
+                    <div id="hasil2"></div>
+                    <div id="hasil3"></div>
+                    <div id="hasil4"></div>
+                    <div id="hasil41"></div>
+                    <div id="hasil42"></div>
+                </div>
+                
+            </div>
+        
+            <div class="buttons">
+                <button class="btnInp" id="luasButton" onclick="hitLebar ()">Hitung</button>
+                <input class="btnInp" id="resett" type="button" value="Reset" onclick="fun()">
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="pict">
+                <img src="assetss/p4-removebg-preview.png" alt="moduleImg" style="display: block;
+                margin: auto; margin-bottom: 40px; ">
+            </div>
+        
+            <div class="inpText">
+                <label for="squareSide" id="lblSquareSide">Masukkan Lebar & Tinggi Ukuran Panel</label>
+            </div>
+        
+            <form id="myForm2" action="#">
+                <input type="number" class="designInp" id="inpLebarB" placeholder="lebar M">
+                <input style="margin-top: -1px;" type="number"  class="designInp" id="inpTinggiB" placeholder="tinggi M">
+            </form>
+        
+            <div class="resultBox" >
+
+                <div class="desk">
+                    <p>Lebar Asli : </p>
+                    <p>Tinggi Asli : </p>
+                    <p>Jumlah Resolusi :</p>
+                    <p>Jumlah Module : </p>
+                    <p>Module KeSamping :</p>
+                    <p>Module KeBawah :</p>
+                </div>
+
+                <div class="deskHasil">
+                    <div id="hasilb1"></div>
+                    <div id="hasilb2"></div>
+                    <div id="hasilb3"></div>
+                    <div id="hasilb4"></div>
+                    <div id="hasilb41"></div>
+                    <div id="hasilb42"></div>
+                </div>
+                
+            </div>
+        
+            <div class="buttons">
+                <button class="btnInp" id="luasButton" onclick="hitLebarB ()">Hitung</button>
+                <input class="btnInp" type="button" value="Reset" onclick="funB()">
+            </div>
+            
+        </div>
+        
+        <div class="container">
+            <div class="pict">
+                <img src="assetss/p8-removebg-preview.png" alt="moduleImg" style="display: block;
+                margin: auto; margin-bottom: 40px; ">
+            </div>
+        
+            <div class="inpText">
+                <label for="squareSide" id="lblSquareSide">Masukkan Lebar & Tinggi Ukuran Panel</label>
+            </div>
+        
+            <form id="myForm3" action="#">
+                <input type="number" class="designInp" id="inpLebarC" placeholder="lebar M">
+                <input style="margin-top: -1px;" type="number"  class="designInp" id="inpTinggiC" placeholder="tinggi M">
+            </form>
+        
+            <div class="resultBox" >
+
+                <div class="desk">
+                    <p>Lebar Asli : </p>
+                    <p>Tinggi Asli : </p>
+                    <p>Jumlah Resolusi :</p>
+                    <p>Jumlah Module : </p>
+                    <p>Module KeSamping :</p>
+                    <p>Module KeBawah :</p>
+                </div>
+
+                <div class="deskHasil">
+                    <div id="hasilc1"></div>
+                    <div id="hasilc2"></div>
+                    <div id="hasilc3"></div>
+                    <div id="hasilc4"></div>
+                    <div id="hasilc41"></div>
+                    <div id="hasilc42"></div>
+                </div>
+                
+            </div>
+        
+            <div class="buttons">
+                <button class="btnInp" id="luasButton" onclick="hitLebarC ()">Hitung</button>
+                <input class="btnInp" type="button" value="Reset" onclick="funC()">
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="javaScript/main.js"></script>
+</body>
+</html>
